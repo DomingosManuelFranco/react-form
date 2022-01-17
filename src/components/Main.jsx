@@ -1,15 +1,17 @@
 import photo from '../assets/Ellipse2.svg';
-import Button from './Button';
-
 const Main = () => {
   return (
     <>
       <section className="bg-white">
         <div>
-          <div className="bg-red-50">
-            <img src={photo} alt="Ellipse foto" />
+          <div>
+            <img
+              className="bg-red-50 rounded-full max-w-md mx-auto"
+              src={photo}
+              alt="Ellipse foto"
+            />
           </div>
-          <p>Tina V. invited you to join</p>
+          <p className="text-base">Tina V. invited you to join</p>
           <h1>Channel name</h1>
           <p>46K Active users・78K Total users</p>
         </div>
@@ -27,7 +29,6 @@ const Main = () => {
           </p>
         </div>
       </section>
-      <Button />
     </>
   );
 };
