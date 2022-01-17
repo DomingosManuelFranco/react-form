@@ -1,5 +1,10 @@
 const Button = () => {
-  return <div>Button component</div>;
+  return (
+    <section>
+      <button>continue</button>
+      <p>Already have an account?</p>
+    </section>
+  );
 };
 
 export default Button;
