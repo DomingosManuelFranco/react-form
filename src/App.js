@@ -1,5 +1,15 @@
+import Button from './components/Button';
+import Main from './components/Main';
+
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <div className="bg-cover bg-pink-100">
+        <Main />
+        <Button />
+      </div>
+    </>
+  );
 }
 
 export default App;
