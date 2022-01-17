@@ -1,4 +1,6 @@
 import photo from '../assets/Ellipse2.svg';
+import Button from './Button';
+
 const Main = () => {
   return (
     <>
@@ -25,6 +27,7 @@ const Main = () => {
           </p>
         </div>
       </section>
+      <Button />
     </>
   );
 };
