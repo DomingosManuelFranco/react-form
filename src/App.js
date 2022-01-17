@@ -4,8 +4,8 @@ import Main from './components/Main';
 function App() {
   return (
     <>
-      <div className="bg-cover bg-pink-200">
-        <section className="max-w-md bg-white rounded-xl shadow-md">
+      <div className="bg-cover max-w-full	 bg-pink-100">
+        <section className="max-w-md mx-auto bg-white rounded-xl shadow-md">
           <Main />
           <Button />
         </section>
