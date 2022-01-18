@@ -4,7 +4,7 @@ const Main = () => {
     <>
       <section className="bg-white">
         <div>
-          <div>
+          <div className="pt-10 pb-5 ">
             <img
               className="bg-red-50 rounded-full max-w-md mx-auto"
               src={photo}
@@ -17,7 +17,7 @@ const Main = () => {
           <h1 className="text-[24px] font-bold tracking-wide text-center">
             Channel name
           </h1>
-          <p className="my- bg-[#F8F4FA] text-base font-normal tracking-wide text-center">
+          <p className="my- bg-[#f5eaf5] text-base font-normal tracking-wide text-center ml-20 mr-20 rounded">
             46K Active users・78K Total users
           </p>
         </div>
