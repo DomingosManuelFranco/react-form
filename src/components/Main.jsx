@@ -11,9 +11,15 @@ const Main = () => {
               alt="Ellipse foto"
             />
           </div>
-          <p className="text-base">Tina V. invited you to join</p>
-          <h1>Channel name</h1>
-          <p>46K Active users・78K Total users</p>
+          <p className="text-base font-normal tracking-wide text-center">
+            Tina V. invited you to join
+          </p>
+          <h1 className="text-[24px] font-bold tracking-wide text-center">
+            Channel name
+          </h1>
+          <p className="my- bg-[#F8F4FA] text-base font-normal tracking-wide text-center">
+            46K Active users・78K Total users
+          </p>
         </div>
         <form>
           <h1>User name</h1>
