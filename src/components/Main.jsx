@@ -36,6 +36,10 @@ const Main = () => {
             </p>
           </div>
         </div>
+        <div>
+          <button>continue</button>
+          <p>Already have an account?</p>
+        </div>
       </section>
     </>
   );
