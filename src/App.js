@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="bg-cover py-20 bg-pink-100">
-        <section className="max-w-md mx-auto bg-white rounded-[12px] shadow-[#272727]">
+        <section className="max-w-md mx-auto bg-white rounded-lg shadow-ms border-gray-300">
           <Main />
           <Button />
         </section>
