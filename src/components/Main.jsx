@@ -2,7 +2,7 @@ import photo from '../assets/Ellipse2.svg';
 const Main = () => {
   return (
     <>
-      <section className="bg-white">
+      <section className="bg-white mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="pt-10 pb-5 ">
           <img
             className="bg-red-50 rounded-full max-w-md mx-auto"
