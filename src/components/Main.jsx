@@ -2,8 +2,8 @@ import photo from '../assets/Ellipse2.svg';
 const Main = () => {
   return (
     <>
-      <section className="bg-white mt-8 sm:mx-auto sm:w-full sm:max-w-md">
-        <div className="pt-10 pb-5 ">
+      <section className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <div className="mb-4 ">
           <img
             className="bg-red-50 rounded-full max-w-md mx-auto"
             src={photo}
@@ -22,8 +22,11 @@ const Main = () => {
 
         <div className="md:container mx-auto px-12">
           <form className="">
-            <h1 className="">User name</h1>
+            <label className="block text-gray-700 text-sm font-bold mb-2">
+              User name
+            </label>
             <input
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               type="text"
               placeholder="How do you like people to call you?"
             />
@@ -36,7 +39,9 @@ const Main = () => {
           </div>
         </div>
         <div>
-          <button>continue</button>
+          <button className="bg-pink-700 hover:bg-pink-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+            continue
+          </button>
           <p>Already have an account?</p>
         </div>
       </section>
