@@ -38,7 +38,7 @@ const Main = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="text-center text-gray-800 text-xl">
           <button className="bg-pink-700 hover:bg-pink-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
             continue
           </button>
