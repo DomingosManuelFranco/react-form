@@ -34,15 +34,17 @@ const Main = () => {
           <div>
             <input type="checkbox" />
             <p>
-              I have read and agree to the Terms of service and Privacy policy.
+              I have read and agree to the{' '}
+              <span className="text-pink-600">Terms of service</span> and
+              <span className="text-pink-600"> Privacy policy</span>.
             </p>
           </div>
         </div>
         <div className="text-center text-gray-800 text-xl">
-          <button className="bg-pink-700 hover:bg-pink-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+          <button className="bg-pink-700 hover:bg-pink-500 text-white font-bold py-2 rounded px-28">
             continue
           </button>
-          <p>Already have an account?</p>
+          <p className="text-pink-700 my-8">Already have an account?</p>
         </div>
       </section>
     </>
